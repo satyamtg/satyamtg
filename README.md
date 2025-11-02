@@ -6,17 +6,17 @@
 **Software Engineer @ [TATA 1mg](https://www.1mg.com)**  
 Building intelligent systems that scale — from offline access to AI-assisted developer platforms.
 
-[![GitHub followers](https://img.shields.io/github/followers/satyamtg?label=Follow&style=social)](https://github.com/satyamtg)
-[![GitHub stars](https://img.shields.io/github/stars/satyamtg?style=social)](https://github.com/satyamtg?tab=stars)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-in/satyamtg-blue?logo=linkedin&style=flat)](https://www.linkedin.com/in/satyamtg)
-[![Twitter](https://img.shields.io/badge/Twitter-@satyamtg-black?logo=twitter&style=flat)](https://twitter.com/satyamtg)
+[![GitHub](https://img.shields.io/badge/GitHub-satyamtg-000000?style=flat-square)](https://github.com/satyamtg)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-satyamtg-0A66C2?style=flat-square)](https://www.linkedin.com/in/satyamtg)
+[![Twitter](https://img.shields.io/badge/Twitter-@satyamtg-1DA1F2?style=flat-square)](https://twitter.com/satyamtg)
+[![Email](https://img.shields.io/badge/Email-satyam.tg@gmail.com-555555?style=flat-square)](mailto:io.satyamtg@gmail.com)
 
 </div>
 
 ---
 
 ### 🧩 Profile Overview  
-Satyam Kumar is an engineer who blends research-driven insight with practical software craftsmanship.  
+Satyam Kumar blends research-driven insight with practical software craftsmanship.  
 His work bridges **AI-enhanced developer productivity**, **open-source accessibility**, and **embedded innovation** — consistently focused on making technology faster, smarter, and more inclusive.
 
 ---
@@ -24,26 +24,21 @@ His work bridges **AI-enhanced developer productivity**, **open-source accessibi
 ## ⚙️ Notable Work
 
 ### 🧠 DeputyDev — *AI for Developer Velocity*  
-An enterprise-scale platform that integrates AI into day-to-day software development.  
-Deployed to 300+ engineers, the platform delivered measurable productivity gains — reducing pull-request review time by **31.8%** and increasing code-delivery volume by **28%**.  
-This research, co-authored by Satyam, is featured in  
-**[“Intuition to Evidence: Measuring AI’s True Impact on Developer Productivity”](https://arxiv.org/abs/2509.19708)** (2025).  
-
-> *DeputyDev demonstrates the shift from intuition-based engineering to data-backed workflow evolution — evidence that human-AI synergy can reshape enterprise development.*
+An enterprise-scale platform integrating AI into daily development workflows.  
+Deployed to 300+ engineers, it reduced PR review time by **31.8%** and increased code-delivery volume by **28%**.  
+Research featured in  
+**[“Intuition to Evidence: Measuring AI’s True Impact on Developer Productivity”](https://arxiv.org/abs/2509.19708)** (2025).
 
 ---
 
 ### 🌍 Kiwix — *Knowledge Without Boundaries*  
-As part of **Google Summer of Code 2020**, Satyam contributed to **Kiwix**, the open-source platform that enables offline access to Wikipedia, Project Gutenberg, and other web resources.  
-Work focused on improving the build automation and cross-platform stability of ZIM-based content packages.  
-Enhancements to CI pipelines, platform-specific build scripts, and modular architecture contributed to Kiwix’s mission: bringing free knowledge to low-connectivity environments.  
-
-> *Kiwix stands as proof that open access and offline design can empower learners worldwide.*
+As part of **Google Summer of Code 2020**, contributed to **Kiwix**, enabling offline access to Wikipedia and Project Gutenberg.  
+Enhanced CI/CD, modular build systems, and cross-platform packaging — extending open access to low-connectivity regions.
 
 ---
 
 ### 🧰 Other Projects  
-- **[element-tiles-refind-theme](https://github.com/satyamtg/element-tiles-refind-theme)** — Periodic-table-inspired bootloader theme for rEFInd with light/dark variants and automated build scripts.
+- **[element-tiles-refind-theme](https://github.com/satyamtg/element-tiles-refind-theme)** — Periodic-table-inspired rEFInd bootloader theme with automated builds and light/dark variants.
 
 ---
 
@@ -58,11 +53,18 @@ Enhancements to CI pipelines, platform-specific build scripts, and modular archi
 
 ---
 
-## 📈 GitHub Metrics
+## 📊 GitHub Metrics
+
 <div align="center">
 
-[![Satyam’s GitHub stats](https://github-readme-stats.vercel.app/api?username=satyamtg&show_icons=true&theme=transparent&hide_border=true&hide_title=true)](https://github.com/satyamtg)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=satyamtg&layout=compact&theme=transparent&hide_border=true)](https://github.com/satyamtg)
+[![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=satyamtg&theme=transparent)](https://github.com/satyamtg)
+
+[![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=satyamtg&theme=transparent)](https://github.com/satyamtg)
+[![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=satyamtg&theme=transparent)](https://github.com/satyamtg)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=satyamtg&theme=transparent&hide_border=true)](https://git.io/streak-stats)
+
+[![Satyam's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=satyamtg&bg_color=ffffff00&color=555555&line=0078D7&point=555555&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -71,4 +73,5 @@ Enhancements to CI pipelines, platform-specific build scripts, and modular archi
 ## 💬 Connect & Collaborate
 🌐 [GitHub](https://github.com/satyamtg)  
 💼 [LinkedIn](https://www.linkedin.com/in/satyamtg)  
-🐦 [Twitter/X](https://twitter.com/satyamtg)
+🐦 [Twitter/X](https://twitter.com/satyamtg)  
+📧 [Email](mailto:satyam.tg@gmail.com)
