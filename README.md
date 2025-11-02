@@ -72,12 +72,3 @@ Enhancements to CI pipelines, platform-specific build scripts, and modular archi
 🌐 [GitHub](https://github.com/satyamtg)  
 💼 [LinkedIn](https://www.linkedin.com/in/satyamtg)  
 🐦 [Twitter/X](https://twitter.com/satyamtg)
-
----
-
-<div align="center">
-
-> “Innovation thrives where accessibility meets intelligence.”  
-> — *Satyam Kumar*
-
-</div>
