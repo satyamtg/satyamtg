@@ -9,7 +9,7 @@ Building intelligent systems that scale — from offline access to AI-assisted d
 [![GitHub](https://img.shields.io/badge/GitHub-satyamtg-000000?style=flat-square)](https://github.com/satyamtg)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-satyamtg-0A66C2?style=flat-square)](https://www.linkedin.com/in/satyamtg)
 [![Twitter](https://img.shields.io/badge/Twitter-@satyamtg-1DA1F2?style=flat-square)](https://twitter.com/satyamtg)
-[![Email](https://img.shields.io/badge/Email-satyam.tg@gmail.com-555555?style=flat-square)](mailto:io.satyamtg@gmail.com)
+[![Email](https://img.shields.io/badge/Email-io.satyamtg@gmail.com-555555?style=flat-square)](mailto:io.satyamtg@gmail.com)
 
 </div>
 
