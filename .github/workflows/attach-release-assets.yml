@@ -1,0 +1,24 @@
+name: Attach résumé assets to release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  attach-assets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to upload release assets
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload résumé PDFs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ github.event.release.tag_name }}" \
+            "resumes/resume/modern/resume.pdf#resume-modern.pdf" \
+            "resumes/resume/classic/resume.pdf#resume-classic.pdf" \
+            "resumes/cv/modern/cv.pdf#cv-modern.pdf" \
+            "resumes/cv/classic/cv.pdf#cv-classic.pdf"
