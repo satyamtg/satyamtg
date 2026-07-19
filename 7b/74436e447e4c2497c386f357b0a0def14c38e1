@@ -1,0 +1,19 @@
+.github/workflows/attach-release-assets.yml
+  s_e7718a03b1e23f::t_5a5d9e07fe933e 15-16,18-25,30-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "7b74436e447e4c2497c386f357b0a0def14c38e1",
+  "prompts": {},
+  "sessions": {
+    "s_e7718a03b1e23f": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "458456",
+        "model": "CLAUDE_4_POINT_6_SONNET"
+      },
+      "human_author": "satyamtg <io.satyamtg@gmail.com>"
+    }
+  }
+}
