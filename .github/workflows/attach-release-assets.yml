@@ -12,13 +12,22 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.target_commitish }}
 
-      - name: Upload résumé PDFs
+      - name: Rename PDFs to match release asset names
+        run: |
+          cp resumes/resume/modern/resume.pdf  resume-modern.pdf
+          cp resumes/resume/classic/resume.pdf resume-classic.pdf
+          cp resumes/cv/modern/cv.pdf          cv-modern.pdf
+          cp resumes/cv/classic/cv.pdf         cv-classic.pdf
+
+      - name: Upload résumé PDFs to release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload "${{ github.event.release.tag_name }}" \
-            "resumes/resume/modern/resume.pdf#resume-modern.pdf" \
-            "resumes/resume/classic/resume.pdf#resume-classic.pdf" \
-            "resumes/cv/modern/cv.pdf#cv-modern.pdf" \
-            "resumes/cv/classic/cv.pdf#cv-classic.pdf"
+            resume-modern.pdf \
+            resume-classic.pdf \
+            cv-modern.pdf \
+            cv-classic.pdf
