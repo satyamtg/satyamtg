@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in LaTeX
+% Based on "Jake's Resume" template (the Overleaf gold-standard ATS template)
+% Author: Satyam Kumar
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{empty}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.35in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure PDF is machine readable / ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Satyam Kumar} \\ \vspace{1pt}
+    \small 870-951-9238 $|$ \href{mailto:io.satyamtg@gmail.com}{io.satyamtg@gmail.com} $|$
+    \href{https://linkedin.com/in/satyamtg}{linkedin.com/in/satyamtg} $|$
+    \href{https://github.com/satyamtg}{github.com/satyamtg} $|$
+    \href{https://satyamtg.github.io}{satyamtg.github.io}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Tata 1mg}{Gurugram, India}
+      {Senior Software Development Engineer (SDE III) -- AI Systems \& Platform}{April 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Authored a persistent multi-agent orchestration framework (extending PydanticAI) providing durable agent/session persistence, resumable and branchable conversation threads, token-aware context compaction, and full LLM observability -- adopted as the core orchestration layer across \textbf{6+} internal AI products}
+        \resumeItem{Built long-lived autonomous coding-agent infrastructure supporting asynchronous execution, real-time progress streaming, pause/resume checkpoints, and distributed cancellation for complex multi-step coding tasks}
+        \resumeItem{Extended \textbf{DeputyDev}'s code-intelligence layer: Tree-sitter-based language-aware parsing/chunking, semantic vector search with symbol/function/class-level retrieval and reranking, and multi-provider LLM routing (OpenAI, Anthropic, Google, others) with automatic fallback across a compiled local binary, backend services, and VS Code extension}
+        \resumeItem{Led cross-functional adoption of GenAI tooling across 1mg's engineering org, improving developer throughput by \textbf{30\%+}; co-authored a published study measuring the platform's real-world productivity impact (see Publications)}
+        \resumeItem{Designed an AI-assisted catalog-management system spanning 40+ entity types with mandatory human-in-the-loop approval and full version/audit history, ensuring AI-generated changes never write directly to production data}
+        \resumeItem{Built \textbf{1mg MCP}, an authenticated MCP server exposing commerce tools (product search, cart, checkout, order tracking) with location-aware context enforcement, enabling MCP-compatible AI clients to transact on the platform}
+        \resumeItem{Built an MCP-based agent-memory platform with scoped user/repo/org memory and human-review gates for shared writes; also shipped a LangGraph-based healthcare AI assistant for lab-test discovery and booking}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tata 1mg}{Gurugram, India}
+      {Software Development Engineer II}{April 2024 -- April 2026}
+      \resumeItemListStart
+        \resumeItem{Built and led \textbf{DeputyDev}, an AI-powered developer platform (code generation, code review, productivity analytics) from inception to \textbf{300+ engineers} deployed org-wide, distributed via the VS Code Marketplace with multimodal understanding and codebase-aware agentic workflows}
+        \resumeItem{Overhauled query-solving, history, and intent-resolution systems, improving response speed \textbf{3--4x}, reliably handling \textbf{1,000+ daily queries}, and cutting chat error rates from \textbf{300+ to under 100/day}}
+        \resumeItem{Re-architected the payments/refunds pipeline (\textbf{50\%} less memory, \textbf{30\%} lower latency) and refactored the Python backend (Astral + UV + Ruff), cutting setup time from hours to minutes}
+        \resumeItem{Enhanced Care Plan and Loyalty systems, driving \textbf{6x} adoption growth (200 $\rightarrow$ 1,200 orders/day) and cutting third-party integration time by \textbf{30x}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tata 1mg}{Gurugram, India}
+      {Software Development Engineer I}{October 2022 -- April 2024}
+      \resumeItemListStart
+        \resumeItem{Enhanced the loyalty and rewards service for fault tolerance across high-traffic order flows}
+        \resumeItem{Created a system to onboard third-party partnerships via simple APIs, saving \textbf{30x} implementation time}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Yellow Class (now SpeakX)}{Remote (later Gurugram), India}
+      {Software Development Engineer}{July 2021 -- October 2022}
+      \resumeItemListStart
+        \resumeItem{Built microservices to improve performance and scale for a top-10 Indian education app}
+        \resumeItem{Developed the communications backend, enabling \textbf{5x} growth in user interactions}
+        \resumeItem{Created the Quiz module from scratch, handling \textbf{1,000+ requests/min} with minimal resource use}
+        \resumeItem{Designed a URL shortener with caching and message queues for low-latency performance}
+        \resumeItem{Maintained libraries, introduced strict typing, and built a reusable nested-discriminator library in Mongoose}
+        \resumeItem{Implemented backend for mini-games, collectibles, and rewards, boosting engagement and retention}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{Intuition to Evidence: Measuring AI's True Impact on Developer Productivity} -- Co-author. Year-long, 300-engineer enterprise study on AI-assisted development; found a \textbf{31.8\%} reduction in PR review cycle time and a \textbf{28\%} increase in production code shipment volume. \textit{arXiv:2509.19708, 2025.}}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Open Source}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Google Summer of Code -- Kiwix} $|$ \emph{Python, Offliners, Zimfarm}}{Jun 2020 -- Aug 2020}
+      \resumeItemListStart
+        \resumeItem{Selected among 1,199 global participants; improved Python offliners and Zimfarm to archive web content into ZIM files, achieving \textbf{~10x} faster offlining and up to \textbf{50\%} smaller output files across seven projects}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{OpenEdx ZIM Scraper} $|$ \emph{Python (Freelance)}}{Aug 2020 -- Dec 2020}
+      \resumeItemListStart
+        \resumeItem{Designed an improved OpenEdx scraper to generate ZIM archives from any OpenEdx-powered platform (e.g. edX); contributed to core ZIM-creation libraries}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Kalyani}{Kalyani, India}
+      {B.Tech in Computer Science and Engineering; CGPA: 9.26/10}{Expected June 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------
+\section{Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{2025} -- Organizational Department Award for Performance, Tata 1mg (contributions to DeputyDev and GenAI initiatives) \\
+     \textbf{2020} -- National Winner, Smart India Hackathon (Problem Statement DR135, Govt. of Goa) \\
+     \textbf{2019} -- 2nd Runner-up, CodeUtsava 3.0 Hackathon, NIT Raipur \\
+     \textbf{2018} -- Most Innovative Hardware Hack, HACKABIT \\
+     \textbf{2017} -- 2nd Rank (National), SOF National Cyber Olympiad
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI / ML}{: Multi-agent orchestration, agentic workflows, LLM routing \& fallback, RAG, semantic \& vector search, prompt engineering \& caching, multimodal inference, model evaluation} \\
+     \textbf{Frameworks}{: PydanticAI, LangGraph, Model Context Protocol (MCP), LLM observability (Langfuse)} \\
+     \textbf{Languages}{: Python, JavaScript, TypeScript, SQL} \\
+     \textbf{Infrastructure \& Data}{: PostgreSQL, MongoDB, Redis, Kafka, RabbitMQ/SQS, Qdrant, Weaviate, API governance} \\
+    }}
+ \end{itemize}
+
+
+
+
+\end{document}
