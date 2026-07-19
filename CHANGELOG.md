@@ -5,7 +5,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [2026.07] — 2026-07-19
+## [2026.07.19] — 2026-07-19
 
 ### Added
 - Nested variant structure under `resumes/`:
@@ -28,6 +28,6 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [2025.x] — legacy
+## [2025.x] — legacy (prior to 2026.07.19)
 
 - `resumes/general/satyamtg_resume_general.pdf` — single flat PDF (superseded by above structure)
