@@ -1,0 +1,19 @@
+CHANGELOG.md
+  s_e7718a03b1e23f::t_d527b0f251c833 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "136b95e251954169d821437107c2d0d4cc754073",
+  "prompts": {},
+  "sessions": {
+    "s_e7718a03b1e23f": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "458456",
+        "model": "CLAUDE_4_POINT_6_SONNET"
+      },
+      "human_author": "satyamtg <io.satyamtg@gmail.com>"
+    }
+  }
+}
