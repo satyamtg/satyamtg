@@ -1,0 +1,22 @@
+VERSION
+  s_e7718a03b1e23f::t_891c15b91f4273 1
+CHANGELOG.md
+  s_e7718a03b1e23f::t_9e6825ba07000a 31
+  s_e7718a03b1e23f::t_844ce0223a278e 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "332add60bbebc7f6c8f7d9ec985cb21de2eeeb66",
+  "prompts": {},
+  "sessions": {
+    "s_e7718a03b1e23f": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "458456",
+        "model": "CLAUDE_4_POINT_6_SONNET"
+      },
+      "human_author": "satyamtg <io.satyamtg@gmail.com>"
+    }
+  }
+}
